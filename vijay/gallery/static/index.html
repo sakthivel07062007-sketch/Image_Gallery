@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background bubbles -->
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+
+    <div class="header">
+        ✨ Interactive Image Gallery ✨
+    </div>
+
+    <div class="container">
+
+        <div class="gallery-card">
+
+            <img id="galleryImage" src="pic1.jpeg" alt="Gallery Image">
+
+            <div class="caption" id="caption">
+                IRONMAN
+            </div>
+
+            <div class="buttons">
+                <button onclick="previousImage()">Previous</button>
+                <button onclick="nextImage()">Next</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
